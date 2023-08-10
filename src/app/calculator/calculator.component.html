@@ -1,14 +1,14 @@
 <p>calculator works!</p>
 <div class="calculator">
   <div class="display">
-    <span>{{ keyclick }}</span>
+    <span>{{ display }}</span>
   </div>
   <div class="keys">
     <button
       class="key"
       [ngClass]="key.name"
       *ngFor="let key of keys"
-      (click)="onKeyClick($event)"
+      (click)="onKeyClick(key.value)"
     >
       {{ key.value }}
     </button>
