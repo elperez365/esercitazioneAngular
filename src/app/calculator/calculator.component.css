@@ -1,0 +1,86 @@
+.calculator {
+  border: 3px solid brown;
+  border-radius: 3%;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3px;
+  background-color: antiquewhite;
+  border-radius: 5%;
+  height: 2rem;
+}
+
+.calculator {
+  width: 12rem;
+}
+
+.keys {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "add   sott  molt divi"
+    "seven eight nine ug"
+    "four  five  six  ug"
+    "one   two  three ug"
+    "zero  dot   ac   ug";
+}
+
+.key {
+  width: 3rem;
+  height: 2rem;
+}
+
+.zero {
+  grid-area: zero;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.dot {
+  grid-area: dot;
+}
+.ac {
+  grid-area: ac;
+}
+.add {
+  grid-area: add;
+}
+.sott {
+  grid-area: sott;
+}
+.molt {
+  grid-area: molt;
+}
+.divi {
+  grid-area: divi;
+}
+.ug {
+  grid-area: ug;
+  height: 100%;
+}

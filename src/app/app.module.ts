@@ -7,9 +7,10 @@ import { ProvaComponent } from './prova/prova.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
-  declarations: [AppComponent, ProvaComponent],
+  declarations: [AppComponent, ProvaComponent, CalculatorComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -1,0 +1,16 @@
+<p>calculator works!</p>
+<div class="calculator">
+  <div class="display">
+    <span>{{ keyclick }}</span>
+  </div>
+  <div class="keys">
+    <button
+      class="key"
+      [ngClass]="key.name"
+      *ngFor="let key of keys"
+      (click)="onKeyClick($event)"
+    >
+      {{ key.value }}
+    </button>
+  </div>
+</div>
